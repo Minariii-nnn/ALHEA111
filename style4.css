@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+h1, h2, h3, p, nav, .nav-links li, footer p {
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-color: #47248f;
+    font-family: 'Fredoka', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+header {
+    background-color: #0a0514;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+header .logo {
+    display: flex;
+    align-items: center; 
+}
+
+header .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+header .logo span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: lightpink; 
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-left: 1200px;
+}
+
+header .nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    
+}
+
+header .nav-links li a:hover {
+    background-color:  #bf9fdf;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Center buttons */
+    margin: 20px 0; /* Add some margin */
+}
+
+.buttons button {
+    margin-right: 10px;
+    padding: 10px 15px; /* Added padding for better size */
+    border: none; /* Removed border */
+    border-radius: 30px; /* Rounded corners */
+    background-color: #bf9fdf; /* Button background color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.buttons button:hover {
+    background-color: #a877b8; /* Darker shade on hover */
+}
+
+.hero {
+    background-color: #bf9fdf;
+    padding: 30px 20px;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: 20px; /* Adjusted margin */
+    max-width: 1200px;
+    margin-left: auto; /* Center the hero section */
+    margin-right: auto; /* Center the hero section */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images */
+}
+
+.gallery img {
+    width: 200px; /* Width of the image */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    margin: 10px; /* Spacing between images */
+    display: block; /* Change to block to allow centering */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    header .nav-links {
+        margin-left: 0; /* Reset margin for smaller screens */
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    .buttons {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
