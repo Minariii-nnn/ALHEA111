@@ -22,6 +22,11 @@ header {
     align-items: center; 
     
 }
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 header .logo {
     display: flex;
@@ -45,7 +50,7 @@ header .nav-links {
     list-style: none;
     display: flex;
     gap: 25px;
-    margin-left: 1200px;
+    
 }
 
 header .nav-links li a {
