@@ -17,15 +17,15 @@ header {
     background-color: #0a0514;
     color: white;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    
     
 }
 .Navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
+  
 }
 
 header .logo {
@@ -43,13 +43,14 @@ header .logo img {
 header .logo span {
     font-weight: bold;
     font-size: 1.5rem;
-    color: lightpink; 
+    color: white; 
 }
 
 header .nav-links {
     list-style: none;
     display: flex;
     gap: 25px;
+    
     
 }
 
@@ -61,11 +62,13 @@ header .nav-links li a {
     font-size: 16px;
     transition: background-color 0.3s ease;
     
+    
 }
 
 header .nav-links li a:hover {
     background-color:  #bf9fdf;
 }
+
 
 
 .footer {
