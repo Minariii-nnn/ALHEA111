@@ -13,6 +13,13 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+header {
+    background-color: #0a0514;
+    color: white;
+    padding: 20px;
+    
+    
+}
 .Navbar{
   display: flex;
   align-items: center;
@@ -36,7 +43,7 @@ header .logo img {
 header .logo span {
     font-weight: bold;
     font-size: 1.5rem;
-    color: white; 
+    color: lightpink; 
 }
 
 header .nav-links {
@@ -61,6 +68,7 @@ header .nav-links li a {
 header .nav-links li a:hover {
     background-color:  #bf9fdf;
 }
+
 
 
 .footer {
